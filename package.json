@@ -1,0 +1,23 @@
+{
+  "name": "hobs-cli",
+  "version": "0.1.0",
+  "description": "Horus client tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crambit/hobs-cli.git"
+  },
+  "keywords": [
+    "monitoring",
+    "alerting"
+  ],
+  "author": "Eric Lafleur <eric@crambit.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/crambit/hobs-cli/issues"
+  },
+  "homepage": "https://github.com/crambit/hobs-cli#readme"
+}
