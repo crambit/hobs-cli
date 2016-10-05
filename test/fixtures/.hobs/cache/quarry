@@ -1,0 +1,9 @@
+Package: health
+Maintainer: eric <eric@crambit.com>
+Version: 0.18
+Description: General CPU, memory, disk and load monitoring
+Depends:
+Tags: #health
+Url: https://github.com/elafleur/horuspack-health
+Size: 5961
+SHA256: 8af705c6c7ec5985f005449c8f6c86f089805a32192a066b242619988ff8f9ec

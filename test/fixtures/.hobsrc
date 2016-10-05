@@ -1,0 +1,12 @@
+{
+  "registries": {
+    "quarry": {
+      "url": "https://quarry.crambit.com",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1NmNjMjljNDJiNDQ1ODE3ZTAxMGM0NWIiLCJpYXQiOjE0NzM3MzY1NjUsImV4cCI6MTQ3NjMyODU2NX0.yOZpXIcJ-Sz5P7kZE0fpHLWJ16g6EXUHT9ljFxrOOF4",
+      "username": "eric"
+    }
+  },
+  "default_registry": "quarry",
+  "index_etag": "W/\"a9-4Y77gcjRJdrLIOfdOgWmsQ\"",
+  "last_updated": "2016-09-14T02:14:37.471Z"
+}
