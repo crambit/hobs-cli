@@ -28,7 +28,7 @@ exports.cmd = function(program) {
       console.log('');
       console.log('    Publishes a package to the registry so that it can be installed by');
       console.log('    name. A package is either a <folder> containing a valid horus.json');
-      console.log('    file or a <git url> that resolves to a Horus package in the root');
+      console.log('    file or a <git url> that resolves to a Hobs package in the root');
       console.log('    of your project or in a .horus subdirectory. The following fields');
       console.log('    are required as a minimum:');
       console.log('');

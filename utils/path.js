@@ -14,7 +14,7 @@ exports.HOBS_RC = process.platform === 'win32' ?
   resolve(process.env.HOME, '.hobsrc');
 
 /**
- * Check whether git is installed
+ * Check whether git is installed.
  */
 
 exports.GIT_BIN = function() {

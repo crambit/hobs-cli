@@ -38,7 +38,7 @@ exports.cmd = function(program) {
       console.log('    This command installs a package, and any packages that it depends');
       console.log('    on. A package is a <name>@<version> or just a <name> to install');
       console.log('    the latest version indexed in the local hobs-cli cache. It can also');
-      console.log('    be a <git url> that resolves to an Horus package.');
+      console.log('    be a <git url> that resolves to an Hobs package.');
       console.log('');
       console.log('    Each package is extracted to its own folder in the current working');
       console.log('    directory. If a package of the same name already exists, the one');
@@ -136,7 +136,7 @@ function download(name, version, size, sha256sum, registry, options, callback) {
       } catch (err) {
         logger.log(err, spinner);
 
-        err.message = 'Destination folder already exists but it\'s not a valid Horus package: ' + dst;
+        err.message = 'Destination folder already exists but it\'s not a valid Hobs package: ' + dst;
         err.name = 'ResourceConflict';
         return callback(err);
       }

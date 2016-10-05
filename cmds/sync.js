@@ -18,7 +18,7 @@ exports.cmd = function(program) {
       console.log('  Description:');
       console.log('');
       console.log('    A wrapper around the `git checkout` and `git pull` commands that');
-      console.log('    locally incorporates changes from your Horus sandbox and/or the');
+      console.log('    locally incorporates changes from your Hobs sandbox and/or the');
       console.log('    workspace master branch. You can choose to sync either "sandbox",');
       console.log('    "master" or both if you omit to specify a branch.');
       console.log('');

@@ -22,7 +22,7 @@ exports.cmd = function(program) {
       console.log('  Description:');
       console.log('');
       console.log('    A wrapper around the `git commit` and `git push` commands that');
-      console.log('    sends locally committed changes to your Horus sandbox and triggers');
+      console.log('    sends locally committed changes to your Hobs sandbox and triggers');
       console.log('    a Riemann configuration reload in the workspace.');
       console.log('');
     });
