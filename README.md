@@ -19,7 +19,7 @@ your own registry. For further information, head over to https://github.com/cram
 
 DEPENDENCIES:
 
-- Node.js 0.10+
+- Node.js 0.12+
 - Git 1.6.6+
 
 Get the latest version of the client tools and make sure it's successfully installed:
