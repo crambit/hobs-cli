@@ -7,7 +7,9 @@ var completion = require('./utils/completion');
 var pjson = require('./package.json');
 
 // auto-complete commands
-completion.init(Object.keys(pjson.bin)[0]);
+if (process.argv.slice(2)[0] === 'completion') {
+  return completion.init(Object.keys(pjson.bin)[0]);
+}
 
 // load commands
 commands.load(program);
